@@ -2,17 +2,23 @@
 
 > The core of react-data-grid
 
+> React Data Grid with no merged community fixes
 
+## Current fixes:
+https://github.com/adazzle/react-data-grid/pull/1476 - mareolan
+https://github.com/adazzle/react-data-grid/pull/1489 - szogun1987
+
+Oficial github: https://github.com/adazzle/react-data-grid
 ## Install
 
 ```sh
-npm install --save react-data-grid
+npm install --save fixed-react-data-grid
 ```
 
 ## Usage
 
 ```sh
-import ReactDataGrid from 'react-data-grid';
+import ReactDataGrid from 'fixed-react-data-grid';
 
 const columns = [{ key: 'id', name: 'ID' }, { key: 'title', name: 'Title' }];
 const rows = [{ id: 1, title: 'Title 1' }, ...];
